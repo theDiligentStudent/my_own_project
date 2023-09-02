@@ -1,53 +1,107 @@
 <!-- 16/06/23
-         Start Off -->
+         Start Off 
+        
+        Сегодня -- 2/09/13 -- Хочу Усовершенствовать свою Програмку по Изучению Английских слов.
+ Начал это делать с помощью К.-а и Объяснений предоставленных мне chatGPT-->
 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn Words 1</title>
+    <link rel="stylesheet" href="../CSS/learn_words_1.css" />
+  </head>
+  <body>
+    <!-- make a button container -->
+    <div class="buttons-container">
+      <!-- Make two buttons inside the container. So far two. -->
+      <div class="first-buttons-block">
+        <button
+          class="button-for-word-1 english1 button_for_word"
+          id="button_for_word_1"
+        >
+          English word/expression 1
+        </button>
 
-         <!DOCTYPE html>
-         <html lang="en">
-         <head>
-             <meta charset="UTF-8">
-             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-             <title>Learn Words 1</title>
-             <link rel="stylesheet" href="../CSS/learn_words_1.css">
-         </head>
-         <body>
-             <!-- make a button container -->
-             <div class="buttons-container">
-         
-                 <!-- Make two buttons inside the container. So far two. -->
-                <div class="first-buttons-block">
-                     <button class="button-for-word-1 english1 button_for_word" id="button_for_word_1">English word/expression 1</button>
-             
-                     <button class="button-for-word-2 russian1 button_for_word" id="button_for_word_2">Russian Word/Expression 1</button>
-                </div>
-         
-                <div class="second-buttons-block">
-                     <button class="button-for-word-1 english2 button_for_word" id="button_for_word_3">English word/expression 2</button>
-             
-                     <button class="button-for-word-2 russian2 button_for_word" id="button_for_word_4">Russian Word/Expression 2</button>
-                </div>
-         
-                <div class="third-buttons-block">
-                     <button class="button-for-word-1 english3 button_for_word" id="button_for_word_1">English word/expression 3</button>
-             
-                     <button class="button-for-word-2 russian3 button_for_word" id="button_for_word_2">Russian Word/Expression 3</button>
-                </div>
-         
-                <div class="fourth-buttons-block">
-                     <button class="button-for-word-1 english4 button_for_word" id="button_for_word_1">English word/expression 4</button>
-             
-                     <button class="button-for-word-2 russian4 button_for_word" id="button_for_word_2">Russian Word/Expression 4</button>
-                </div>
-         
-                <div class="fiveth-buttons-block">
-                     <button class="button-for-word-1 english5 button_for_word" id="button_for_word_1">English word/expression 5</button>
-             
-                     <button class="button-for-word-2 russian5 button_for_word" id="button_for_word_2">Russian Word/Expression 5</button>
-                </div>
-         
-             </div>
-         
-             
-         </body>
-         <script src="../JS/learn_words_1_1.js"></script>
-         </html>
+        <button
+          class="button-for-word-2 russian1 button_for_word"
+          id="button_for_word_2"
+        >
+          Russian Word/Expression 1
+        </button>
+      </div>
+
+      <div class="second-buttons-block">
+        <button
+          class="button-for-word-1 english2 button_for_word"
+          id="button_for_word_3"
+        >
+          English word/expression 2
+        </button>
+
+        <button
+          class="button-for-word-2 russian2 button_for_word"
+          id="button_for_word_4"
+        >
+          Russian Word/Expression 2
+        </button>
+      </div>
+
+      <div class="third-buttons-block">
+        <button
+          class="button-for-word-1 english3 button_for_word"
+          id="button_for_word_1"
+        >
+          English word/expression 3
+        </button>
+
+        <button
+          class="button-for-word-2 russian3 button_for_word"
+          id="button_for_word_2"
+        >
+          Russian Word/Expression 3
+        </button>
+      </div>
+
+      <div class="fourth-buttons-block">
+        <button
+          class="button-for-word-1 english4 button_for_word"
+          id="button_for_word_1"
+        >
+          English word/expression 4
+        </button>
+
+        <button
+          class="button-for-word-2 russian4 button_for_word"
+          id="button_for_word_2"
+        >
+          Russian Word/Expression 4
+        </button>
+      </div>
+
+      <div class="fiveth-buttons-block">
+        <button
+          class="button-for-word-1 english5 button_for_word"
+          id="button_for_word_1"
+        >
+          English word/expression 5
+        </button>
+
+        <button
+          class="button-for-word-2 russian5 button_for_word"
+          id="button_for_word_2"
+        >
+          Russian Word/Expression 5
+        </button>
+      </div>
+    </div>
+
+    <input type="file" id="file_input" accept=".txt" />
+    <button id="read_button">Read file</button>
+    <button id="write_button">Write file</button>
+
+    <pre id="output"></pre>
+  </body>
+  <script src="../JS/learn_words_1_1.js"></script>
+</html>
